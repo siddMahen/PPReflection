@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {0.1}The Goal}{1}
+\contentsline {section}{\numberline {0.2}Selection of Sources}{2}
+\contentsline {section}{\numberline {0.3}Application of Information}{3}
+\contentsline {section}{\numberline {0.4}Achieving the Goal}{3}
+\contentsline {section}{\numberline {0.5}Reflecting on Learning}{3}
