@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 APR 2012 23:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  27 APR 2012 01:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -97,27 +97,67 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2010/10/13 v2.3e parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 43.
+\cftparskip=\skip46
+\cftbeforetoctitleskip=\skip47
+\cftaftertoctitleskip=\skip48
+\cftbeforepartskip=\skip49
+\cftpartnumwidth=\skip50
+\cftpartindent=\skip51
+\cftbeforechapskip=\skip52
+\cftchapindent=\skip53
+\cftchapnumwidth=\skip54
+\cftbeforesecskip=\skip55
+\cftsecindent=\skip56
+\cftsecnumwidth=\skip57
+\cftbeforesubsecskip=\skip58
+\cftsubsecindent=\skip59
+\cftsubsecnumwidth=\skip60
+\cftbeforesubsubsecskip=\skip61
+\cftsubsubsecindent=\skip62
+\cftsubsubsecnumwidth=\skip63
+\cftbeforeparaskip=\skip64
+\cftparaindent=\skip65
+\cftparanumwidth=\skip66
+\cftbeforesubparaskip=\skip67
+\cftsubparaindent=\skip68
+\cftsubparanumwidth=\skip69
+\cftbeforeloftitleskip=\skip70
+\cftafterloftitleskip=\skip71
+\cftbeforefigskip=\skip72
+\cftfigindent=\skip73
+\cftfignumwidth=\skip74
+\c@lofdepth=\count100
+\c@lotdepth=\count101
+\cftbeforelottitleskip=\skip75
+\cftafterlottitleskip=\skip76
+\cftbeforetabskip=\skip77
+\cfttabindent=\skip78
+\cfttabnumwidth=\skip79
 ) (./doc.aux)
 \openout1 = `doc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 7.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 23.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -125,8 +165,11 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 20.
- (./doc.toc)
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 28.
+ (./doc.toc
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `doc.toc'.
 
@@ -134,42 +177,45 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 32.
 
 [1
 
-] [2] [3]
-Overfull \hbox (6.27074pt too wide) in paragraph at lines 175--185
+] [2]
+Overfull \hbox (6.27074pt too wide) in paragraph at lines 176--186
 \OT1/ppl/m/n/12 in-volved in the use and the con-struc-tion of cryp-to-graphic 
 sys-tems. I learned|
  []
 
-[4]
-Overfull \hbox (2.71898pt too wide) in paragraph at lines 233--241
+[3] [4]
+Overfull \hbox (2.71898pt too wide) in paragraph at lines 235--243
 []\OT1/ppl/m/n/12 My re-search re-port meets al-most all of the spec-i-fi-ca-ti
 ons I set out to acheive.|
  []
 
-[5] [6] [7] [8] (./doc.aux) ) 
+[5] [6] (./doc.bbl [7]) [8
+
+] (./doc.aux) ) 
 Here is how much of TeX's memory you used:
- 959 strings out of 493633
- 11212 string characters out of 3143378
- 63536 words of memory out of 3000000
- 4289 multiletter control sequences out of 15000+200000
- 19115 words of font info for 54 fonts, out of 3000000 for 9000
+ 1224 strings out of 493633
+ 15152 string characters out of 3143378
+ 68962 words of memory out of 3000000
+ 4546 multiletter control sequences out of 15000+200000
+ 18738 words of font info for 53 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 27i,7n,20p,195b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvip
-s/base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (10 pages, 88773 bytes).
+ 27i,7n,20p,223b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2011/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on doc.pdf (10 pages, 97943 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

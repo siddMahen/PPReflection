@@ -1,5 +1,6 @@
-\contentsline {section}{\numberline {0.1}The Goal}{1}
-\contentsline {section}{\numberline {0.2}Selection of Sources}{2}
-\contentsline {section}{\numberline {0.3}Application of Information}{3}
-\contentsline {section}{\numberline {0.4}Achieving the Goal}{5}
-\contentsline {section}{\numberline {0.5}Reflecting on Learning}{6}
+\contentsline {section}{The Goal}{1}
+\contentsline {section}{Selection of Sources}{2}
+\contentsline {section}{Application of Information}{3}
+\contentsline {section}{Achieving the Goal}{5}
+\contentsline {section}{Reflecting on Learning}{5}
+\contentsline {section}{Bibliography}{7}

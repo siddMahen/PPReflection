@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{matcrypt}
+Jeffrey Hoffstein, Jill Pipher, and Joseph~H. Silverman.
+\newblock {\em {{An Introduction to Mathematical Cryptography}}}.
+\newblock Springer, 233 Spring Street, New York, N.Y., USA, 2008.
+
+\bibitem{schneier}
+Bruce Schneier.
+\newblock {\em {{Applied Cryptography}}}.
+\newblock John Wiley and Sons, Inc., 605 Third Avenue, New York, N.Y., USA,
+  second edition, 1996.
+
+\end{thebibliography}

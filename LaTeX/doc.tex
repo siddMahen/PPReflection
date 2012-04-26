@@ -2,15 +2,23 @@
 \usepackage{palatino}
 \usepackage{parskip}
 \usepackage{amsmath}
+\usepackage[titles]{tocloft}
 
 \begin{document}
+
+% -- Bookeeping
+\renewcommand*\thesection{\arabic{section}}
+\renewcommand{\cftsecfont}{\bfseries}
+
+\setlength\cftbeforesecskip{5pt}
+%\setlength\cftaftertoctitleskip{2pt}
 
 % -- Title --
 \title{An Exploration of Cryptography}
 \author{Internation School of Helsinki\\\\
     Siddharth Mahendraker\\
     \texttt{siddharth\_mahen@me.com}\\\\
-    Word Count: ~2700}
+    Word Count: 2500}
 \date{2012}
 \maketitle
 
@@ -21,7 +29,8 @@
 \clearpage
 
 % -- The Goal --
-\section{The Goal}
+\section*{The Goal}
+\addcontentsline{toc}{section}{The Goal}
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
@@ -97,13 +106,14 @@ the paper I submit should convey some of my passion for the subject
 and be pleasant to look at.
 
 % -- Selection of Sources --
-\section{Selection of Sources}
+\section*{Selection of Sources}
+\addcontentsline{toc}{section}{Selection of Sources}
 
 My research spanned a wide variety of subjects in both theoretical and
 practical cryptography.
 
 One of the most useful books I have used is Applied Cryptography
-by Bruce Schneier\footnotemark. It gave me invaluable information into the
+by Bruce Schneier \cite{schneier}. It gave me invaluable information into the
 practical application of cryptography with solid definitions,
 great bredth and full code examples. I was sure this book was a good
 resource because the author, Bruce Schneier, is a very well known
@@ -119,7 +129,7 @@ by asking about good introductory texts to cryptography on Quora.
 % -- FIXME: Make sure that the footnote marks are on the same page...
 
 The next invaluable resource I used was An Introduction to Mathematical
-Cryptography by Joseph H. Silverman et al\footnotemark. This book gave me
+Cryptography by Joseph H. Silverman et ali \cite{matcrypt}. This book gave me
 a complete and through understanding of the underlying mathematics behind
 a wide variety of cryptographic algorithms, as well as insight into
 interesting mathematical techniques which could be used to break these
@@ -131,16 +141,6 @@ of mathematics are Brown University, and have all published numerous
 research articles in their respective fields of mathematics, therefore I
 beleive that this book contains trustworthy information.
 
-\footnotetext[1]{
-Applied Cryptography - Protocols, Algorithms and Source Code in C
-by Bruce Schneier
-}
-
-\footnotetext[2]{
-An Introduction to Mathematical Cryptography
-by Jeffery Hoffstein, Jill Pipher and Joseph H. Silverman
-}
-
 Another huge resource which I took advantage of was websites such as
 Khan Academy and Wikibooks. Khan Academy creates and distributes short
 Youtube videos explaining topics in a wide variety of disciplines.
@@ -149,7 +149,7 @@ subjects. Although these resources were not used when looking for
 information regarding topics in cryptography (as, in the case of Wikibooks,
 anyone can become an author), they were extremely useful when I wanted
 to review certain topics, such as binomial coefficients or how to use
-the typesetting software (\LaTeX), properly.
+the typesetting software ({\LaTeX}), properly.
 
 Aside from these resources, I have also referred to a many different
 individual articles from various online sources, ranging from an article on
@@ -166,7 +166,8 @@ and were ultra dense in information. For example, both of the books
 mentioned above are well over 450 pages in length (501 and 758
 pages respectively).
 
-\section{Application of Information}
+\section*{Application of Information}
+\addcontentsline{toc}{section}{Application of Information}
 
 Over the course of my project, there were a slew of skills and techniques
 I developed as a result of my research, which concentrated themselves in
@@ -196,11 +197,11 @@ the questions at the end of each chapter, or working all of the examples
 by hand). Furthermore, apart from helping me understand the texts I was
 reading, this helped me structure my writing style appropriately, so I
 sound clear and professional throughout my research report. Another great
-example of the skills I learned to apply are my new found \LaTeX typsetting
-skills. Before this project began, I had not even heard of \LaTeX,
+example of the skills I learned to apply are my new found {\LaTeX} typsetting
+skills. Before this project began, I had not even heard of {\LaTeX},
 but after doing some research on better typesetting engines (Microsoft Word
-does not set mathematical text very well...) I chanced upon \LaTeX and took
-it upon myself to learn how to use it. The wonderful Wikibook on \LaTeX
+does not set mathematical text very well...) I chanced upon {\LaTeX} and took
+it upon myself to learn how to use it. The wonderful Wikibook on {\LaTeX}
 provided me with everything I needed to know. Using this knowledge, I
 constructed not only my product, but also this essay.
 
@@ -221,7 +222,8 @@ through the book, I learned about the Collision Theorem and how it
 the size of the square root of the list before you find a match, because
 by that point the probability of not finding a match is very very low.
 
-\section{Achieving the Goal}
+\section*{Achieving the Goal}
+\addcontentsline{toc}{section}{Achieving the Goal}
 
 My goal was to answer the question "What ingenious ideas and processes
 are involved in modern cryptographic theory, and how do they function
@@ -236,7 +238,7 @@ simple yet detailed explanations. It focuses on both the practical
 and theoretical sides of cryptography. It gives full code examples
 of all of the cryptographic algorithms analyzed, as well as several
 extra programs which were used in the analysis of these algorithms.
-And finally, it has been beautifully set using \LaTeX, and includes
+And finally, it has been beautifully set using {\LaTeX}, and includes
 gorgeous tables and exquisite mathematical typesetting.
 
 Although I cannot vouche for how pleasant my report is to read, being
@@ -253,10 +255,8 @@ is the meeting of the first and second specifications. The other two
 are simply more personal goals which are not directly related to my
 inquiry question or the topic of my project.
 
-\section{Reflecting on Learning}
-
-Although I learned an incredible amount about crytography while
-investigating and making my product
+\section*{Reflecting on Learning}
+\addcontentsline{toc}{section}{Reflecting on Learning}
 
 Throughout my project, my learning was divided into two main
 categories.
@@ -289,28 +289,6 @@ and focus on the task at hand.
 
 All of this has significantly improved my self direction as a learner.
 
-Although
-I learned about fantastic and beautiful ideas such as those involved in
-information theory, probability theory, crpytographic analysis of
-algorithms, number theroy, the construction of cryptographically secure
-algorithms and other such technical topics. I felt as though the true
-learning
-
-Reflecting on my endevours through the lens of Human Ingenuity has
-provided a very interesting insight. As this project progressed, I came
-to a very profound conclusion regarding cryptography, mathematics and
-the nature of human innovation. I realized that simply by making up
-structure, and imagining new possiblities, humans have the capacity
-to reveal deeper truths about our universe. And in that respect,
-human acheivement is only limited by our imaginations. And although
-this idea seems trivially simple, it has truly changed the way I think
-about science and innovation, and especially mathematics. I have come
-to see the intrinsic beauty of mathematical structure, and its ability
-to reveal amazing and wonderful things through the sheer power of
-imagination. Things such as Diffie-Hellman key exchange continue to
-amaze me. The very idea that such a structure preserves information
-withouth any prior secrecy is astounding.
-
 As this project project progressed, I came to a very profound
 conclusion regarding cryptography, mathematics and the nature of
 human ingenuity. I realized that simply by making up structure, and
@@ -339,15 +317,31 @@ I should have allocated work in week based chunks, so that my
 goals wouldn't seem as large and I would be able to make more
 ammendments to my plan as the project progressed.
 
-All in all, I am really glad I did this project. Although the
-its outcome was important, I feel the real gain has been in my
-self confidence and my ability to persevere and deliver results.
-I now know myself better, and I can make more accurate judgements
-regarding my strengths and my weaknesses.
+All in all, I am really glad I did this project. I have really
+taken my abilities to their full potential. I learned an incredible
+amount, not only about cryptography, but also about myself.
 
-All in all, I am really glad I did this project. Not only have
-I learned an incredible amount about cryptography, but I have
-also developed my self-awareness, perseverance and ability
-to solve challenging problems.
+% -- FIXME: Bad conclusion, needs work
+
+%All in all, I am really glad I did this project. Although the
+%its outcome was important, I feel the real gain has been in my
+%self confidence and my ability to persevere and deliver results.
+%I now know myself better, and I can make more accurate judgements
+%regarding my strengths and my weaknesses.
+
+%All in all, I am really glad I did this project. Not only have
+%I learned an incredible amount about cryptography, but I have
+%also developed my self-awareness, perseverance and ability
+%to solve challenging problems.
+
+\nocite{*}
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{plain}
+\bibliography{doc.bib}
 
 \end{document}
+
+% -- TODO: Bibliography
+
+%-- TODO: Appendix!!
