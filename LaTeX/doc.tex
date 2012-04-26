@@ -10,7 +10,7 @@
 \author{Internation School of Helsinki\\\\
     Siddharth Mahendraker\\
     \texttt{siddharth\_mahen@me.com}\\\\
-    Word Count: ~820}
+    Word Count: ~2700}
 \date{2012}
 \maketitle
 
@@ -28,19 +28,20 @@
 %Question: "What ingenious ideas and processes are involed in
 %modern cryptographic theory, and how do they function in practice?"
 
-I have always been interested in computer sciences. It has captivated me
-since my youth, and to this day, I continue to write programs, publish
-open source software, and contribute to others' work.
+The realm of computer science has captivated me since my youth. It has
+always been an interest of mine which I have persued inside and outside
+of school. These days, I continue to write programs in my spare time,
+publish open source software, and contribute to other open source
+projects over the Internet.
 
 Therefore, when the time came to pick a topic for my personal project,
-computer sciences seemed like the obvious choice.
+a topic in the field of computer science seemed like an obvious choice.
 
-My almost insatisfiable craving for computer science related knowledge
-has led me down several very interesting paths. I have previously taken my
-own time to learn about topic such as fundamental computation theory,
-artificial intelligence, algorithm and data structure theory and software
-engineering. However, computer science still holds many wonders for
-me to discover, and cryptography was one of them.
+Through my own interest, I had already taken time to learn about many
+of the interesting subtopics in computer science, such as computational
+complexity theory, artificial intelligence, algorithm and data structure
+design and software engineering. As such, I wanted to try something
+a little different; something new and challeging.
 
 I chose to learn about cryptography because it was a field of computer
 science I genuinely knew nothing about, yet contained so many intersting
@@ -57,15 +58,16 @@ underneath cryptography and how it could be implemented in the real world.
 
 I think the area of interaction to which cryptography most relates is
 human ingenuity. This is because cryptography (and for that matter any
-field in computer science) is based on inventing creative, concrete
+field in computer science) is based on inventing creative concrete
 solutions to abstract problems. In cryptography, these solutions
 take the form of cryptographic alorithms and their implementations
 and these problemes take the form of mathematical equations.
 
 Based on my area of interaction and my interests, human ingenuity and
-learning about both applied and theoretical cryptography, I came up with the
-following inquiry question: "What ingenious ideas and processes are involved
-in modern cryptographic theory, and how do they function in practice?".
+learning about both applied and theoretical cryptography respectively, I
+came up with the following inquiry question: "What ingenious ideas and
+processes are involved in modern cryptographic theory, and how do they
+function in practice?".
 
 I decided that the best way to achieve my goal and answer my inquiry
 question was to write three seperate cryptographic algorithms embodying
@@ -74,7 +76,7 @@ report. This goal is particularly well suited to my needs as it balances
 both the applied and the theoretical parts of cryptography, allowing me to
 focus on the entire subject as a whole.
 
-Idealy, the research report should follow the following specifications.
+Idealy, my product should follow the following specifications.
 
 Firstly, it should be deep and complete. In my mind this means simple,
 intuitive explanations and worked examples. Around 20-30 pages would be
@@ -104,22 +106,25 @@ One of the most useful books I have used is Applied Cryptography
 by Bruce Schneier\footnotemark. It gave me invaluable information into the
 practical application of cryptography with solid definitions,
 great bredth and full code examples. I was sure this book was a good
-resource because the author, Bruce Schneier is a very well known
+resource because the author, Bruce Schneier, is a very well known
 security technologist, who currently serves on the board of directors
 of the International Association of Cryptologic Research and is a member
 of the Advisory Board for the Electronic Privacy Information Center while
-working at a consulting firm specializing in cryptography and computer
+also working at a consulting firm specializing in cryptography and computer
 security. Furthermore, he has also designed one of the strongest block
 ciphers currently available, called \texttt{bcrypt}. I found this book
 by asking about good introductory texts to cryptography on Quora.
 
-The next invaluable resource I used is An Introduction to Mathematical
+% -- FIXME: Footnote: bcrypt
+% -- FIXME: Make sure that the footnote marks are on the same page...
+
+The next invaluable resource I used was An Introduction to Mathematical
 Cryptography by Joseph H. Silverman et al\footnotemark. This book gave me
 a complete and through understanding of the underlying mathematics behind
-a wide variety of crpytographic algorithms, as well as insight into
-intersting mathematical techniques which could be used to break these
-algorithms. The book was initial an extremly tough read, as I was not used
-to it's rigorous proof based method. However, with practice and much time
+a wide variety of cryptographic algorithms, as well as insight into
+interesting mathematical techniques which could be used to break these
+algorithms. The book was initially an extremly tough read, as I was not used
+to its rigorous proof based method. However, with practice and much time
 spent on the wonderful examples at the end of each chapter, I was able to
 use this book effectively. All of the authors of this book are proffessors
 of mathematics are Brown University, and have all published numerous
@@ -136,108 +141,85 @@ An Introduction to Mathematical Cryptography
 by Jeffery Hoffstein, Jill Pipher and Joseph H. Silverman
 }
 
-Another huge resource which I have used regularly is Khan Academy. It's
-a sort of online learning resource which teaches you subjects in small
-YouTube clips in less than 10 minutes. This was particularly useful if I
-wanted to review something such as matrix multiplication, if I hadn't done
-it in a while. Just to brush up my math skills in general.
+Another huge resource which I took advantage of was websites such as
+Khan Academy and Wikibooks. Khan Academy creates and distributes short
+Youtube videos explaining topics in a wide variety of disciplines.
+Wikibooks provides free, detailed texts regarding a wide variety of
+subjects. Although these resources were not used when looking for
+information regarding topics in cryptography (as, in the case of Wikibooks,
+anyone can become an author), they were extremely useful when I wanted
+to review certain topics, such as binomial coefficients or how to use
+the typesetting software (\LaTeX), properly.
 
 Aside from these resources, I have also referred to a many different
 individual articles from various online sources, ranging from an article on
 elliptic curve cryptography form the NSA to articles from Wolfram Alpha
 about the applications of cellular automata in cryptography.
 
+% -- FIXME: Footnote: NSA article, Cellular Automatata article
+% -- FIXME: Footnote: Wikibooks, Khan Academy
+
 When it came to picking my resources, I opted for quality over quantity.
-Although I did not chose an enourmous selection of resources as some
-students have, the resources I have chosen are of excellent quality and
-are ultra dense in information and each entry in my bibliography has
-been thoroughly vetted.
+Although I did not choose an enourmous selection of resources as some
+students have, the resources I did choose were of excellent quality
+and were ultra dense in information. For example, both of the books
+mentioned above are well over 450 pages in length (501 and 758
+pages respectively).
 
 \section{Application of Information}
 
-Because I knew absolutely nothing about cryptography before I began,
-many of my first problems involved simply not understanding what was
-going on. The solution, although it may seem slightly stupid, was
-simply to study my resources very carefully and ensure I understood
-the concepts presented.
+Over the course of my project, there were a slew of skills and techniques
+I developed as a result of my research, which concentrated themselves in
+two main categories.
 
-For example, early on in the project, I was having trouble understanding
-why Shank's baby step giant step collision algorithm for the discrete
-logarithm problem, $g^x = h$, required lists of size slightly larger than
-the size of the square root of the order of the element $g$. It seemed
-absolutely strange at first, however, as I continued through the book, I
-learned about the Collision Theorem and how it (practically) guarantees
-that you only need to check a small multiple of the size of the square
-root of the list before you find a match, because by that point the
-probability of not finding a match is very very low.
+Firstly, and perhaps most importantly, I learned about the actual processes
+involved in the use and the construction of cryptographic systems. I
+learned about techniques such as statistical analysis of text, linear
+cryptanalysis and the analysis of elliptic curve discrete logarithm based
+cryptosystems, just to name a few. These techniques were applied directly
+to my product in two distinct ways. Firstly, all of these ideas were explained in detail, with worked examples.
+This should demonstrate my ability to apply this information through my
+ability to teach it to others. Secondly, I have written programs for
+both the encryption and the cracking of each of the algorithms in my
+product. This should further demonstrate my understanding of the subject.
 
+Secondly, I learned to apply many auxiliary skills to acheive my project
+goals. These skills were not central to answering my inquiry question, but
+rather served to enchance and improve my project as a whole. One of the
+most important example of this was my development of my ability to read
+and understand mathematical texts. At the beginning of the project, I had
+absolutely no idea how to read mathematics, which resulted in me flipping
+back between pages trying to understand what was happening during a proof
+or when building on a previous topic. As the project progressed, I learned
+to read carefully and use my resources properly (for example, by doing
+the questions at the end of each chapter, or working all of the examples
+by hand). Furthermore, apart from helping me understand the texts I was
+reading, this helped me structure my writing style appropriately, so I
+sound clear and professional throughout my research report. Another great
+example of the skills I learned to apply are my new found \LaTeX typsetting
+skills. Before this project began, I had not even heard of \LaTeX,
+but after doing some research on better typesetting engines (Microsoft Word
+does not set mathematical text very well...) I chanced upon \LaTeX and took
+it upon myself to learn how to use it. The wonderful Wikibook on \LaTeX
+provided me with everything I needed to know. Using this knowledge, I
+constructed not only my product, but also this essay.
 
-Later in the project, my resources also helped me make desicions for
-which there was no mathematical or logical reasoning. For example
-
-
-Based on my research, I had already decided I would be investigating
-symmetric and public key cryptography because it was the basis
-for other more complex areas in cryptography such as visual
-cryptography, quantum cryptography and cryptographic hashing, which
-I personally really wanted to learn about outside the context of
-this project.
-
-However, I still had not decided which cryptographic algorithms
-(hereafter referred to as ciphers) to write about.
-I wanted to cover
-a large spectrum of symmetric and public key cryptography to
-demonstrate my knowledge of the topic, while simoultaneously
-
-The first and most important instance where my research came into play
-was when I had to choose which subtopic of cryptography to write in my
-product. Cryptography is a very, very diverse field, with many highly
-interesting subtopics, including several which really caught my eye
-such as homomorphic cryptography, quantum cryptography and
-cryptographic hashing.
-
-After the first month of two of research, I realized something important,
-which in hindsight, I really should have forseen earlier. The bredth of
-the subject would be impossible to capture with my skills and my time
-constraints. The problem was all of the subtopic in cryptography were
-
-I would have to choose a particular subtopic in cryptography
-
-My project was completed in 2 phases, research and the writing of my report.
-
-The first phase, research, was the longest and most difficult phase. During
-this time, I was constantly researching new and interesting things about
-the realm of cryptography. I began at the basics, the information theoretic
-foundation of cryptography, its assumptions and its underlying ideas. Then
-I began researching different sub-ideas in cryptography, such as
-mathematically difficult algorithms, probability theory, number theory
-and crpytographic protocols. After every research session, I would consiously
-not look into one topic I found very interesting so that next time I would
-know right where to start off.
-
-Soon however, I realized that the huge bredth of the subject was impossible
-to capture with my skills and my time constraints. Therefore, of the research
-I had done, I looked at only a small subset of that. I choose cryptographic
-ciphers and their implementation because it was very interesting, it was
-within my ability to program such programs and they came in a variety of
-difficulties so I could really show off my skills in the product.
-Furthermore, it was a subset of cryptography that was relatable to other
-people, and has very strong connections to my area of interaction.
-
-Then I began my second phase, the writing of the report. Because I had
-already researched everything I needed to know, the content of the research
-report came fairly naturally. What took the longest amount of time was
-structuring what I knew into a text that made sense and flowed smoothly
-from one idea to the next without doing any magic. That is, I wanted to
-give the reader a real understanding of what is going on, rather than
-just an answer. This was acheived simply by writing extensively
-at every oppertunity. Slowly, I carved my final paper out of the giant
-mess of attempts.
-
-Note, however, that there are a myriad of other interesting topics in
-the field of cryptography (such as cryptograhic hashing, homomorphic
-cryptography, visual cryptography, quantum crpytography etc...) which
-are equally interesting, but I sadly could not include in my project.
+I realize this may sound haughty, but I trully feel that anyone who is to
+grade me on my application of information should really read my product to
+truly understand the extent to which I have applied the information I
+learned. This being a reflective essay, the technical content of my project
+has only been vaguely mentioned (as above). However, in reality, my depth
+and application of knowledge is quite quite substantial and I think this
+should be taken into consideration. Here is a brief example of my
+application of such technical information: Early on in the project, I was
+having trouble understanding why Shank's baby step giant step collision
+algorithm for the discrete logarithm problem, $g^x = h$, required lists of
+size slightly larger than the size of the square root of the order of the
+element $g$. It seemed absolutely strange at first, however, as I continued
+through the book, I learned about the Collision Theorem and how it
+(practically) guarantees that you only need to check a small multiple of
+the size of the square root of the list before you find a match, because
+by that point the probability of not finding a match is very very low.
 
 \section{Achieving the Goal}
 

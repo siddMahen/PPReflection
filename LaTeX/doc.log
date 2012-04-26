@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  15 APR 2012 22:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 APR 2012 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -138,8 +138,14 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 
 [1
 
-] [2] [3] [4]
-Overfull \hbox (2.71898pt too wide) in paragraph at lines 251--259
+] [2] [3]
+Overfull \hbox (6.27074pt too wide) in paragraph at lines 175--185
+\OT1/ppl/m/n/12 in-volved in the use and the con-struc-tion of cryp-to-graphic 
+sys-tems. I learned|
+ []
+
+[4]
+Overfull \hbox (2.71898pt too wide) in paragraph at lines 233--241
 []\OT1/ppl/m/n/12 My re-search re-port meets al-most all of the spec-i-fi-ca-ti
 ons I set out to acheive.|
  []
@@ -160,7 +166,7 @@ m/cmmi12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
 mr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (10 pages, 88828 bytes).
+Output written on doc.pdf (10 pages, 88773 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
