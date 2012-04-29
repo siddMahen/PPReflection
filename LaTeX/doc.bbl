@@ -1,14 +1,47 @@
 \begin{thebibliography}{1}
 
-\bibitem{matcrypt}
+\bibitem{nsa}
+National~Security Agency.
+\newblock {{The Case for Elliptic Curve Cryptography}}.
+\newblock \url{http://1.usa.gov/IaIdvX}, 2009.
+
+\bibitem{silverman}
 Jeffrey Hoffstein, Jill Pipher, and Joseph~H. Silverman.
 \newblock {\em {{An Introduction to Mathematical Cryptography}}}.
 \newblock Springer, 233 Spring Street, New York, N.Y., USA, 2008.
 
+\bibitem{khan}
+Salman Khan.
+\newblock {{Probability}}.
+\newblock \url{http://bit.ly/J9qxix}, 2008.
+\newblock Specifically, videos on combinatorics.
+
+\bibitem{quora}
+Quora.
+\newblock {{What are some good introductory books on cryptography?}}
+\newblock \url{http://b.qr.ae/ILngsi}, 2011.
+
+\bibitem{blowfish}
+Bruce Schneier.
+\newblock {{Description of a New Variable-Length Key, 64-Bit Block Cipher
+  (Blowfish)}}.
+\newblock In {\em Fast Software Encryption, Cambridge Security Workshop
+  Proceedings}, pages 191--204. Springer-Verlag, December 1993.
+
 \bibitem{schneier}
 Bruce Schneier.
 \newblock {\em {{Applied Cryptography}}}.
-\newblock John Wiley and Sons, Inc., 605 Third Avenue, New York, N.Y., USA,
+\newblock John Wiley \& Sons, Inc., 605 Third Avenue, New York, N.Y., USA,
   second edition, 1996.
+
+\bibitem{wikibooks}
+Wikibooks.
+\newblock Latex.
+\newblock \url{http://bit.ly/L5YUN}, 2011.
+
+\bibitem{wolfram}
+Stephen Wolfram.
+\newblock {{Cryptography With Cellular Automata}}.
+\newblock \url{http://bit.ly/IGZ8Zu}, 1986.
 
 \end{thebibliography}
