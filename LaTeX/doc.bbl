@@ -1,9 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{nsa}
 National~Security Agency.
 \newblock {{The Case for Elliptic Curve Cryptography}}.
 \newblock \url{http://1.usa.gov/IaIdvX}, 2009.
+
+\bibitem{lincrypt}
+Howard~M. Heys.
+\newblock {{A Tutorial on Linear and Differential Cryptanalysis}}.
+\newblock {\em Cryptologia}, XXVI(3):189--221, 2002.
 
 \bibitem{silverman}
 Jeffrey Hoffstein, Jill Pipher, and Joseph~H. Silverman.
@@ -15,6 +20,11 @@ Salman Khan.
 \newblock {{Probability}}.
 \newblock \url{http://bit.ly/J9qxix}, 2008.
 \newblock Specifically, videos on combinatorics.
+
+\bibitem{musson}
+Matthew Musson.
+\newblock {{Attacking the Elliptic Curve Discrete Logarithm Problem}}.
+\newblock Master's thesis, Acadia University, 2006.
 
 \bibitem{quora}
 Quora.

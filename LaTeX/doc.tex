@@ -20,10 +20,18 @@
 \author{Siddharth Mahendraker\\
     \texttt{siddharth\_mahen@me.com}\\\\
     International School of Helsinki\\
-    Supervisor: Seth Tyler\\
+    Supervisors: Seth Tyler \& Jyri-Pekka Komonen\\
     Word Count: 3246}
 \date{2012}
 \maketitle
+
+\renewcommand{\abstractname}{Acknowledgements}
+\begin{abstract}
+I am most sincerely grateful to my personal project
+supervisors, Mr.\ Tyler and Mr.\ Komonen, whose guidance
+and feedback was invaluable in the completion of this
+project.
+\end{abstract}
 
 % -- ToC --
 \setcounter{page}{1}
@@ -75,7 +83,7 @@ solution. Suppose two people, Alice and Bob want to know a shared secret
 code, but all of their communications have to be public. The ingenious
 solution to this problem, known as the Diffie-Hellman key exchange algorithm,
 works as follows. Alice and Bob both agree on a public prime number, and
-a generator\footnotemark, $p$ and $g$ respectively. Then both Alice and Bob
+a generator, $p$ and $g$ respectively. Then both Alice and Bob
 choose random numbers, say $a$ and $b$, and compute $A = g^a \pmod{p}$ and
 $B = g^b \pmod{p}$ respectively, which are then sent to one another. Now
 Alice, having received $B$ from Bob, computes
@@ -275,16 +283,15 @@ achieve:
 \begin{enumerate}
 \item I have covered the three principle types of cryptographic algorithms
 present in modern cryptography: stream cipher, block ciphers and public-key
-ciphers. This answers the ``what ingenious ideas and processes are involved
-in modern cryptographic theory''.
+ciphers. The text is 28 pages long, not including the appendix. This answers
+the ``what ingenious ideas and processes are involved in modern cryptographic
+theory'' and meets my page count specification.
 
 \item I have made sure that the text flows clearly and that there are many
 examples throughout the text. Specifically, I have included one fully worked
 example for each key concept. This also addresses the ``what ingenious ideas
 and processes are involved in modern cryptographic theory'' part of my inquiry
 question.
-
-% -- Include page count above somewhere
 
 \item I have reflected and evaluated each cipher with regard to its theoretical
 and practical advantages/limitations. Furthermore, I have provided full commented
@@ -385,10 +392,209 @@ really taken my abilities to their greatest potential. I learnt an
 incredible amount, not only about ingenuity in cryptography, but also about
 myself.
 
+\nocite{*}
+
 \addcontentsline{toc}{section}{Bibliography}
 \bibliographystyle{plain}
 \bibliography{doc.bib}
 
-\end{document}
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
 
-%-- TODO: Appendix!!
+\subsection*{Journal Excerpts}
+
+\paragraph*{13/10/11}
+\begin{quote}
+\#\#\# Information Theory
+
+Information Theory defines the amount of information in a message as the minimum number of
+bits needed to encode all possible meanings of that message, assuming all meanings are equally likely.
+
+The amount of information in a message `M` is measured through the
+entropy of `M`, denoted `H(M)`. In general, the entropy of a message is obtained by taking the log base 2 of the number of possible meanings, once again assuming each meaning is equally likely. This can be expressed as the equation:
+
+    H(M) = log2(n)
+
+Such that `n` is the number of possible meanings of the message.
+
+Entropy also measures the uncertainty of the message, ergo, the number of
+plaintext bits needed to be recovered from the ciphertext for the plaintext to make sense.
+
+This can be used to explain why it's more likely that a message to Bob starts
+with "Dear Bob" and not "\}!Q\$aqw\&".
+
+The rate of a language is the amount of information (in bits) that is stored in
+each letter of the language, given as `r` by:
+
+    r = H(M)/N
+
+Such that `N` is the length of the message `M`. The normal rate of English is around
+1.3 bits/character. That is to say, the average English message has approx. 1.3 bits of information in each character.
+
+The absolute rate of a language is the maximum number of bits that can be
+coded in each character. If there are `L` characters in a language, it is said to have an absolute rate, `R`, of:
+
+    R = log2(L)
+
+In English, this is around 4.7 bits/letter. However, this is not the actual
+rate of English, as English is highly redundant. The redundancy of English, `D`, is defined as:
+
+    D = R - r
+
+The redundancy of English is 3.4 bits/letter, meaning that on average,
+English letters have 3.4 bits of redundant or superfluous information.
+
+The measure of the entropy of a crypto system can be approximated by the function:
+
+    H(K) = log2(K)
+
+Such that `K` is the size of the key space (ergo size of the set of all possible
+key values). In general, the greater the entropy of a system, the harder it is to crack.
+
+Cryptanalysis uses the natural redundancies of a language to reduce the number
+of possible plaintexts, as more than one expression can match the same meaning. The more redundant a language, the easier to analyse. This is why it is good practice to compress messages before encryption, to reduce the redundancy of the message, as well as the work required to encrypt/decrypt.
+
+There are two basic techniques to obscure the redundancies in a plaintext
+message, confusion and diffusion.
+
+Confusion obscures the relationship between the plaintext, the ciphertext and the
+key, making the search for redundancy and statistical patterns more difficult.
+
+Diffusion dissipates the redundancy of the plaintext by spreading it out over the
+ciphertext, for example a transposition cipher like the columnar cipher simply rearranges the character of the plaintext. More advanced forms of diffusion can spread parts of the message through the entire message, rather than just transforming it.
+
+Stream cipher use confusion only, block ciphers use both confusion and diffusion.
+As a rule of thumb, diffusion alone is always easily cracked.
+\end{quote}
+
+\paragraph*{18/02/12}
+\begin{quote}
+\#\# 18/02/12
+
+Ski break is starting. My school work has finally subsided and I plan to
+complete my implementation of ECC. Finally understand all of the math behind it.
+This should not be that difficult.
+
+ECC presents itself as a very interesting and efficient alternative to normal
+DLP-based ciphers. Check out these stats from the NSA. They state that to maintain
+a security level equivalent to that of a 3072 bit key in RSA (read strong DLP) you
+only need 256 bit key in ECDLP! Thats 10x less space cost! Furthermore, this
+decrease in space cost increases as the security bits are increased!
+
+\begin{verbatim}
+---------------------|-----------------------
+Security Level(bits) | Ratio of Cost: DC - EC
+---------------------|-----------------------
+            80       |          3:1
+---------------------|-----------------------
+            112      |          6:1
+---------------------|-----------------------
+            128      |          10:1
+---------------------|-----------------------
+            192      |          32:1
+---------------------|-----------------------
+            256      |          64:1
+---------------------|-----------------------
+\end{verbatim}
+
+Freaking amazing stuff. Obviously, however, there is a slight calculation over
+head as computation over the EC can get expensive.
+\end{quote}
+
+\subsubsection*{Excersises From Chapter 1 of An
+Introduction to Mathematical Cryptography}
+
+\begin{quote}
+\begin{verbatim}
+1.7
+---
+
+a)
+    34787|353 = 353*q + r
+    352*98 + 193
+b)
+    238792|7843 = 7843*q + r
+    7843*30 + 3502
+c)
+    9829387493|873485 = 873485*q + r
+    873485*11253 + 60788
+d)
+    1498387487|76348 = 76348*q + r
+    76348*19625 + 57987
+
+1.8
+---
+
+a)
+    78745 (mod 127) = 5
+b)
+    2837647 (mod 4387) = 3645
+c)
+    8739287463 (mod 18754) = 17233
+d)
+    4536782793 (mod 9784537) = 6542162
+
+1.9
+---
+
+a)
+    291 = 252 * 1 + 39
+    252 = 39 * 6 + 18
+    39 = 18 * 2 + 3
+    18 = 3 * 6 + 0
+    gcd(291, 252) = 3
+b)
+    85652 = 16261 * 5 + 4347
+    16261 = 4347 * 3 + 3220
+    4347 = 3220 * 1 + 1127
+    3220 = 1127 * 2 + 966
+    1127 = 966 * 1 + 161
+    966 = 161 * 6 + 0
+    gcd(85652, 16261) = 161
+c)
+    139024789 = 93278890 * 1 + 45745899
+    93278890 = 45745899 * 2 + 1787092
+    45745899 = 1787092 * 25 + 1068599
+    1787092 = 1068599 * 1 + 718493
+    1068599 = 718493 * 1 + 350106
+    718493 = 350106 * 2 + 18281
+    350106 = 18281 * 19 + 2767
+    18281 = 2767 * 6 + 1679
+    2767 = 1679 * 1 + 1088
+    1679 = 1088 * 1 + 591
+    1088 = 591 * 1 + 497
+    591 = 497 * 1 + 94
+    497 = 94 * 5 + 27
+    94 = 27 * 3 + 13
+    27 = 13 * 2 + 1
+    13 = 1 * 13 + 0
+    gcd(139024789, 93278890) = 1
+d)
+    16534528044 = 8332745927 * 1 + 8201782117
+    8332745927 = 8201782117 * 1 + 130963810
+    8201782117 = 130963810 * 62 + 82025897
+    130963810 = 82025897 * 1 + 48937913
+    82025897 = 48937913 * 1 + 33087984
+    48937913 = 33087984 * 1 + 15849929
+    33087984 = 15849929 * 2 + 1388126
+    15849929 = 1388126 * 11 + 580543
+    1388126 = 580543 * 2 + 227040
+    580543 = 227040 * 2 + 126463
+    227040 = 126463 * 1 + 100577
+    126463 = 100577 * 1 + 25886
+    100577 = 25886 * 3 + 22919
+    25886 = 22919 * 1 + 2967
+    22919 = 2967 * 7 + 2150
+    2967 = 2150 * 1 + 817
+    2150 = 817 * 2 + 516
+    817 = 516 * 1 + 301
+    516 = 301 * 1 + 215
+    301 = 215 * 1 + 86
+    215 = 86 * 2 + 43
+    86 = 43 * 2 + 0
+    gcd(16534528044, 8332745927) = 43
+
+\end{verbatim}
+\end{quote}
+
+\end{document}
