@@ -1,6 +1,6 @@
-# Personal Project Essay
+# Personal Project Reflection Essay
 
-This is the personal project reflection essay.
+This is my personal project reflection essay.
 
 ## Requirements
 
@@ -15,9 +15,7 @@ root directory of the project:
 
 ```
 $ cd LaTeX
-$ latex doc
-$ pdflatex doc
-$ open doc.pdf
+$ make render
 ```
 
 Note that the document will need to be rendered again if changes are made.
